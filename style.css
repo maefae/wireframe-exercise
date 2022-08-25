@@ -1,11 +1,13 @@
 body {
     margin: auto;
     max-width: 1100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
 
   header {
     background-color: rgb(0, 0, 0);
     display: flex;
+    margin-top: 5px;
   }
   
   nav {
@@ -29,12 +31,12 @@ body {
     padding-left: 25px;
   }
   
-  #title-img {
+  #img-title {
     margin: 8px;
     padding-left: 60px;
   }
   
-  #hero-img {
+  #hero {
     display: block;
     margin: auto;
     padding: 30px;
@@ -60,7 +62,6 @@ body {
   
   h2 {
     display: flex;
-    font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: bold;
     align-items: center;
     margin-bottom: 5px;
