@@ -1,10 +1,10 @@
 body {
-    max-width: 1100px;
     margin: auto;
+    max-width: 1100px;
   }
-  
+
   header {
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(0, 0, 0);
     display: flex;
   }
   
@@ -25,7 +25,7 @@ body {
   li {
     display: inline;
     align-content: center;
-    color: rgb(160, 160, 160);
+    color: rgb(229, 229, 229);
     padding-left: 25px;
   }
   
@@ -63,5 +63,19 @@ body {
     font-family: 'Helvetica', 'Arial', sans-serif;
     font-weight: bold;
     align-items: center;
-    margin-bottom: 4.5px;
+    margin-bottom: 5px;
+  }
+
+  .sect {
+    margin-left: 50px;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    margin-top: 10px;
+  }
+
+  h2.uni {
+    padding-bottom: 10px;
   }
