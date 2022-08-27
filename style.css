@@ -1,20 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+html {
+  font-family: font-family: 'Oswald', sans-serif;
+}
+
 body {
     margin: auto;
     max-width: 1100px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
   }
 
   header {
     background-color: rgb(0, 0, 0);
     display: flex;
     margin-top: 5px;
-  }
-  
-  nav {
-    display: flex;
-    width: 80%;
-    vertical-align: top;
-    align-items: center;
   }
   
   ul {
@@ -30,6 +28,13 @@ body {
     color: rgb(229, 229, 229);
     padding-left: 25px;
   }
+
+  nav {
+    display: flex;
+    width: 80%;
+    vertical-align: top;
+    align-items: center;
+  }
   
   #img-title {
     margin: 8px;
@@ -42,16 +47,7 @@ body {
     padding: 30px;
   }
   
-  .sub-banner {
-    display: flex;
-    margin: auto;
-    padding-left: 69px;
-    padding-right: 69px;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .featured-section {
+  .featuredSection {
     display: flex;
     margin: 30px auto;
     padding-left: 69px;
@@ -59,7 +55,28 @@ body {
     align-items: center;
     justify-content: space-between;
   }
-  
+
+  .footBanner {
+    display: flex;
+    padding-left: 80px;
+    padding-right: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+  }
+
+  .section {
+    margin-left: 50px;
+  }
+
+  button {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+  }
+
   h2 {
     display: flex;
     font-weight: bold;
@@ -67,16 +84,11 @@ body {
     margin-bottom: 5px;
   }
 
-  .sect {
-    margin-left: 50px;
-  }
-
-  button {
-    background-color: black;
-    color: white;
-    margin-top: 10px;
-  }
-
-  h2.uni {
+  h2.featuredHeading {
     padding-bottom: 10px;
+  }
+
+  footer {
+    height: 85px;
+    background-color: rgb(0, 0, 0);
   }
